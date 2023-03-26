@@ -38,19 +38,12 @@ def get_sentences(browser,url,language,is_lang_selected):
             element = browser.find_element('xpath',"//div[@class='language-dropdown dropdown-menu']")
 
         browser.implicitly_wait(10)
-
         browser.execute_script("arguments[0].style.display = 'block';", element)
-
         browser.implicitly_wait(10)
-
         button = browser.find_element('xpath',"//button[text()='{}']".format(language))
-
         browser.implicitly_wait(10)
         time.sleep(3)
-
         ActionChains(browser).move_to_element(button).click(button).perform()
-
-
         browser.implicitly_wait(10)
         
     browser.refresh()
