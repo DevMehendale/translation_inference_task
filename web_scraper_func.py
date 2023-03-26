@@ -80,5 +80,4 @@ def get_data_text(language):
             
     browser.quit()
 
-    
     return sentences
