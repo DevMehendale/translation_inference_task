@@ -53,10 +53,11 @@ For HuggingFace, below multilingual model was used for inference-
 
 ### Observations
 
-1) BLEU and CHRF scores don’t do justice fully as they don’t take into consideration the similarity of words (e.g. synonyms are valid as translations)
-2) Differences in scores across languages may arise because of the volume of the data available for each language for model training
-3) Difference in scores across the two models is clearly visible through the translations. IndicTrans performs better (more meaningful sentences)
-4) IndicTrans model seems to be able to translate some words better where there are probably no English words for an Indic word – e.g. अंगणवाडी to Anganwadi (checked for Hindi and Marathi)
-5) sentences which are already in English are also translated (not perfectly) – IndicTrans is better
+1) Difference in scores across the two models is clearly visible through the translations. IndicTrans performs better (more meaningful sentences)
+2) IndicTrans model seems to be able to translate some words better where there are probably no English words for an Indic word – e.g. अंगणवाडी to Anganwadi (checked for Hindi and Marathi)
+3) Sentences which are already in English are also translated again for both the models (not perfectly) – IndicTrans is better
+4) Differences in scores across languages(for same model) may arise mainly because of the volume of good quality data available for each language for model training and also because the complexity of the pair of languages itself
+5) BLEU and CHRF scores don’t do justice fully as they don’t take into consideration the similarity of words (e.g. synonyms are valid as translations)
+
 
 
