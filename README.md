@@ -10,6 +10,9 @@ Steps to run the code-
 4)	Open ```inference.ipynb``` and initialize the variables(3rd cell) before running the code
 
 
+### Results
+
+
 |Language|	IndicTrans_BLEU	|IndicTrans_CHRF	|HuggingFace_BLEU	|HuggingFace_CHRF|
 |-----------	|-----------|	-----------|	-----------|	-----------|
 |Hindi|	37.463862	|63.229363	|32.188361	|51.317558|
