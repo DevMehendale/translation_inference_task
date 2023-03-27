@@ -9,11 +9,13 @@ Steps to run the code-
 2)	Primary code is in the ```inference.py``` file and some user-defined functions are in ```web_scraper_func.py``` module which has already been imported in ```inference.py```
 3)	Open ```inference.ipynb``` and initialize the variables(3rd cell) before running the code. 
 Variables-
-```num_cpu_input=2
-path_dir=os.getcwd()+'/indicTrans'           #'path/to/module/indicTrans/'
-save_dir=os.getcwd()+'/data'                 #'path/to/dir/for/saving/CSVs'
-batch_size=10
-device='cuda:0'```
+
+```num_cpu_input= Number of CPUs to use through multiprocessing module,     default=2```
+```path_dir= Path of the IndicTrans module,     default=os.getcwd()+'/indicTrans'```
+```save_dir= Directory where data needs to be saved,     default=os.getcwd()+'/data'```
+```batch_size= Size of Mini-batches,     default=10```
+```device= Specify the device to use for transformers library computations(could be "cpu", "cuda:0", etc.),     default='cuda:0'```
+
 4)	At the beginning and end of each section(tasks), csv files are read and written respectively. So, if you want to run the code for a particular section(task), csv files can be read at the beginning of each section(which have already been stored in 'data' directory in the repo).
 
 
