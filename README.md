@@ -2,6 +2,8 @@
 ### Web scraper + Translation inference comparison of two models(IndicTrans and HuggingFace)
 
 
+Please go through the .ipynb file to get the whole picture of the pipeline
+
 Steps to run the code-
 1)	Clone the github repo-
 
