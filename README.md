@@ -1,4 +1,4 @@
-# translation_inference_task
+# Translation Inference Task
 ### Web scraper + Translation inference comparison of two models(IndicTrans and HuggingFace)
 
 
