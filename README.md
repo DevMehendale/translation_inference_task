@@ -7,7 +7,13 @@ Steps to run the code-
 
     ```git clone https://github.com/DevMehendale/translation_inference_task.git```
 2)	Primary code is in the ```inference.py``` file and some user-defined functions are in ```web_scraper_func.py``` module which has already been imported in ```inference.py```
-3)	Open ```inference.ipynb``` and initialize the variables(3rd cell) before running the code \n
+3)	Open ```inference.ipynb``` and initialize the variables(3rd cell) before running the code. 
+Variables-
+```num_cpu_input=2
+path_dir=os.getcwd()+'/indicTrans'           #'path/to/module/indicTrans/'
+save_dir=os.getcwd()+'/data'                 #'path/to/dir/for/saving/CSVs'
+batch_size=10
+device='cuda:0'```
 4)	At the beginning and end of each section(tasks), csv files are read and written respectively. So, if you want to run the code for a particular section(task), csv files can be read at the beginning of each section(which have already been stored in 'data' directory in the repo).
 
 
