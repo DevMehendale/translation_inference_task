@@ -58,6 +58,7 @@ For HuggingFace, below multilingual model was used for inference-
 3) Sentences which are already in English are also translated again for both the models (not perfectly) – IndicTrans is better
 4) Differences in scores across languages(for same model) may arise mainly because of the volume of good quality data available for each language for model training and also because the complexity of the pair of languages itself
 5) BLEU and CHRF scores don’t do justice fully as they don’t take into consideration the similarity of words (e.g. synonyms are valid as translations)
+6) Perhaps a metric which takes into account, the meaning of sentences(words) would be better for evaluation
 
 
 
