@@ -1,5 +1,5 @@
 # translation_inference_task
-Web scraper + Translation inference comparison of two models(IndicTrans and HuggingFace)
+## Web scraper + Translation inference comparison of two models(IndicTrans and HuggingFace)
 
 
 Steps to run the code-
