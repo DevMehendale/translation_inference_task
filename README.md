@@ -12,6 +12,7 @@ Steps to run the code-
 ### Notes
 
 For HuggingFace, below multilingual model was used for inference-
+
 ``` https://huggingface.co/Helsinki-NLP/opus-mt-mul-en ```
 
 
